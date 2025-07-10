@@ -14,7 +14,10 @@
     padding: 5px;
 }
 
-
+body {
+    width: 1200px;
+    margin: auto;
+}
 
 .logo {
     margin-top: 10px;
@@ -58,7 +61,7 @@
 }
 
 
-.main-container{
+.main-container {
     padding: 10px;
     width: 1200px;
     margin: auto;
@@ -71,18 +74,123 @@
 }
 
 
-.inside-text h1{
+.inside-text h1 {
     font-size: 40px;
 }
-.inside-text p{
+
+.inside-text p {
     font-size: 20px;
     margin-top: 10px;
 }
 
-.inside-text .btn{
+.inside-text .btn {
     margin-top: 20px;
 }
-.inside-img img{
+
+.inside-img img {
     width: 300px;
     border-radius: 50px;
 }
+
+
+.another-container {
+    width: 1200px;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #4E47FF;
+    border-radius: 20px;
+}
+
+.another-container h1 {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.text p {
+    font-size: 20px;
+    color: white;
+}
+
+.another-text {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+.card-flex {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.card-content h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.name img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.title h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
